@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Calculame esta!</title>
+</head>
+<body>
+    <form action="formulario"><br>
+        <label for="">Número 1</label>
+        <input type="number" id="valor1" placeholder="escribe el primer valor númerico">
+        <br><br>
+        <label for="">Número 2</label>
+        <input type="number" id="valor2" placeholder="escribe el segundo valor númerico">
+
+        <!-- resultado } -->
+        <p>El resultado es: <span id="resultado"></span></p>
+
+        
+        <!-- opereciones matematicas -->
+        <button type="button" onclick="suma();">Suma</button>
+        <button type="button" onclick="resta();">Resta</button>
+        <button type="button" onclick="multipicar();">Multiplicación</button>
+        <button type="button" onclick="dividir();">Division</button>
+
+        
+
+    </form>
+    <script src="calculadora.js"></script>
+</body>
+</html>
